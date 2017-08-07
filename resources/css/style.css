@@ -1,0 +1,263 @@
+/**********************/
+/* Universal Code */
+/**********************/
+
+body {
+    font-size: 16px;
+}
+
+.container{
+    padding-left: 24px;
+}
+
+.container,
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+/* Borders */
+
+.first{
+    border-bottom: 1px solid #dbddde;
+    border-top: none;
+}
+
+.story,
+footer {
+    border-top: 1px solid #dbddde;
+}
+
+/*********************/
+/* Header Nav */
+/*********************/
+
+header{
+    height: 64px;
+    width: 100%;
+}
+
+header .container {
+    margin: 0 24px;
+    justify-content: space-between;
+}
+
+.logo img,
+.logo h1 {
+    display: inline-block;
+}
+
+.logo h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+#grey{
+    color: #dbddde;
+}
+
+.nav span{
+    margin-right: 16px;
+}
+
+.nav span:last-child{
+    margin: 0;
+}
+
+/**********************/
+/* Jumbotron */
+/**********************/
+
+.jumbotron,
+.learning,
+.story:last-child,
+.thesis .story:first-child{
+    background-color: #dbddde;
+}
+
+.jumbotron .container img{
+    width: 60%;
+    height: auto;
+    margin: 32px 24px 32px 0;
+}
+
+.content {
+    width: 40%;
+    height: 200px;
+    padding-right: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn {
+    background: #424748;
+    padding: 8px 0;
+    margin: 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/******************************/
+/* Articles */
+/******************************/
+
+/* Main */
+
+.main {
+    width: 60%;
+}
+
+.main img,
+.main video{
+    width: 100%;
+    height: auto;
+    margin: 32px 0;
+}
+
+.main .text h2,
+.main .text p {
+    margin-bottom: 24px;
+}
+
+.main .text h5,
+.thesis .main .text p{
+    margin-bottom: 32px;
+}
+
+/* Side */
+
+.side {
+    width: 40%;
+    float: right;
+    border-left: 1px solid #dbddde;
+    margin-left: 24px;
+}
+
+.first img{
+    margin-top: 32px;
+}
+
+.story img{
+    width: 35%;
+    height: auto;
+    display: inline-block;
+    margin: 16px;
+}
+
+.story .text {
+    width: 65%;
+}
+
+.story .text h3,
+.story .text p {
+    margin-bottom: 8px;
+}
+
+.story:last-child{
+    margin-bottom: 32px;
+}
+
+/******************************/
+/* Learning */
+/******************************/
+
+.learning h2,
+.thesis h2{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.learning .container{
+    padding: 32px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    margin: 32px 16px;
+    width: 25%;
+    overflow: hidden;
+    height: 350px;
+}
+
+.card img{
+    height: auto;
+    width: 100%;
+}
+
+.card-text{
+    padding: 0 16px 24px 16px;
+}
+
+.card-text h3{
+    padding: 16px 0;
+}
+
+.card-text p{
+    padding: 8px 0;
+}
+/******************************/
+/* Thesis */
+/******************************/
+
+.thesis .side,
+.thesis .story{
+    border: none;
+}
+
+.thesis .main h3{
+    margin-bottom: 8px;
+}
+
+.thesis .story:last-child{
+    background: #fff;
+}
+
+/******************************/
+/* Footer */
+/******************************/
+
+footer{
+    font-size: 90%;
+}
+
+footer .container{
+    padding: 16px 0 32px;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+footer span{
+    padding: 0 8px;
+}
