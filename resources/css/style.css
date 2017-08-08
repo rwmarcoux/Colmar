@@ -18,7 +18,13 @@ body {
     align-items: center;
 }
 
-a:hover{
+a,
+.fa{
+  transition: color 300ms linear;  
+}
+
+a:hover,
+a:active{
     color: #3498db;
 }
 
@@ -151,6 +157,7 @@ footer .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 750ms linear;
 }
 
 .btn a {
@@ -158,7 +165,8 @@ footer .container{
     text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover,
+.btn:active {
     background: #3498db;
 }
 
@@ -310,4 +318,19 @@ footer .container{
 footer span,
 footer i{
     padding: 0 8px;
+}
+
+.fa-facebook:hover,
+.fa-facebook:active{
+    color: #3b5998;
+}
+
+.fa-twitter:hover,
+.fa-twitter:active{
+    color: #55acee;
+}
+
+.fa-google-plus:hover,
+.fa-google-plus:active{
+    color: #dd4b39;
 }
