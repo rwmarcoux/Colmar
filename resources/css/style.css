@@ -28,6 +28,13 @@ a:active{
     color: #3498db;
 }
 
+@media (max-width: 801px){
+    .container{
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
 /* Headings */
 h1,
 h2,
@@ -86,6 +93,7 @@ header{
     display: flex;
     height: 64px;
     width: 100%;
+    border-bottom: 1px solid #000;
 }
 
 header .container{
@@ -145,7 +153,12 @@ footer .container{
     header{
         position: fixed;
         z-index: 20;
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.99);
+    }
+    
+    header .container{
+        margin: 0 auto;
+        padding: 0;
     }
     
     .logo {
@@ -220,7 +233,6 @@ footer .container{
     
     .jumbotron .container{
         flex-direction: column;
-        padding: 0;
     }
     
     .jumbotron .container img{
@@ -319,11 +331,6 @@ footer .container{
 @media (max-width: 801px){
     .articles .main{
         display: none;
-    }
-    
-    .articles .container{
-        padding: 0;
-        margin: 0 auto;
     }
     
     .articles .side{
@@ -478,11 +485,6 @@ footer .container{
 
 @media (max-width: 801px){
     
-    .thesis .container{
-        padding: 0;
-        margin: 0 auto;
-    }
-    
     .thesis .side{
         display: none;
     }
@@ -543,8 +545,8 @@ footer i{
 @media (max-width: 801px){
     footer .container{
         flex-direction: column;
-        margin: 0 auto;
         width: 100%;
+        margin: 0 auto;
     } 
     
     footer p{
