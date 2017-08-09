@@ -5,7 +5,7 @@
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    color: #373737;
+    color: #1D2731;
 }
 
 .container{
@@ -99,7 +99,7 @@ header{
     display: flex;
     height: 64px;
     width: 100%;
-    border-bottom: 1px solid #373737;
+    border-bottom: 1px solid #1D2731;
 }
 
 header .container{
@@ -348,7 +348,7 @@ nav i{
     
     .articles .story:last-child{
         background: #fff;
-        color: #373737;
+        color: #1D2731;
     }
     
     .story{
@@ -407,7 +407,7 @@ nav i{
     width: 25%;
     overflow: hidden;
     height: 350px;
-    color: #373737;
+    color: #1D2731;
 }
 
 .card img{
