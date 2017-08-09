@@ -5,6 +5,7 @@
 body {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
+    color: #373737;
 }
 
 .container{
@@ -18,14 +19,8 @@ body {
     align-items: center;
 }
 
-a,
-.fa{
-  transition: color 300ms linear;  
-}
-
-a:hover,
-a:active{
-    color: #3498db;
+.highlight{
+    color: #CDA34F;
 }
 
 @media (max-width: 801px){
@@ -33,6 +28,17 @@ a:active{
         padding: 0;
         margin: 0 auto;
     }
+}
+
+/* Links */
+a,
+.fa{
+  transition: color 300ms linear;  
+}
+
+a:hover,
+a:active{
+    color: #328CC1;
 }
 
 /* Headings */
@@ -76,13 +82,13 @@ h5{
 /* Borders */
 
 .first{
-    border-bottom: 1px solid #dbddde;
+    border-bottom: 1px solid #1D2731;
     border-top: none;
 }
 
 .story,
 footer {
-    border-top: 1px solid #dbddde;
+    border-top: 1px solid #1D2731;
 }
 
 /*********************/
@@ -93,7 +99,7 @@ header{
     display: flex;
     height: 64px;
     width: 100%;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #373737;
 }
 
 header .container{
@@ -128,10 +134,6 @@ footer .container{
     margin: 0 auto;
 }
 
-.highlight{
-    color: #2980b9;
-}
-
 nav span{
     margin-right: 16px;
 }
@@ -153,7 +155,7 @@ nav i{
     header{
         position: fixed;
         z-index: 20;
-        background: rgba(255, 255, 255, 0.99);
+        background: rgba(255, 255, 255, 0.9);
     }
     
     header .container{
@@ -186,7 +188,7 @@ nav i{
 .learning,
 .articles .story:last-child,
 .thesis .story:first-child{
-    background-color: #34495e;
+    background-color: #0B3C5D;
     color: #fff;
 }
 
@@ -206,14 +208,14 @@ nav i{
 }
 
 .btn {
-    background: #2980b9;
+    background: #CDA34F;
     padding: 8px 0;
     margin: 0;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 750ms linear;
+    transition: background 300ms linear;
 }
 
 .btn a {
@@ -223,7 +225,7 @@ nav i{
 
 .btn:hover,
 .btn:active {
-    background: #3498db;
+    background: #328CC1;
 }
 
 @media (max-width: 801px){
@@ -295,7 +297,7 @@ nav i{
 
 .side {
     width: 40%;
-    border-left: 1px solid #dbddde;
+    border-left: 1px solid #1D2731;
     margin-left: 24px;
 }
 
@@ -346,7 +348,7 @@ nav i{
     
     .articles .story:last-child{
         background: #fff;
-        color: #000;
+        color: #373737;
     }
     
     .story{
@@ -405,7 +407,7 @@ nav i{
     width: 25%;
     overflow: hidden;
     height: 350px;
-    color: #000;
+    color: #373737;
 }
 
 .card img{
@@ -510,7 +512,7 @@ nav i{
 
 footer{
     font-size: 90%;
-    background-color: #2c3e50;
+    background-color: #1D2731;
     color: #fff;
 }
 
