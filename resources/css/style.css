@@ -20,7 +20,7 @@ body {
 }
 
 .highlight{
-    color: #CDA34F;
+    color: #C99E10;
 }
 
 @media (max-width: 801px){
@@ -208,7 +208,7 @@ nav i{
 }
 
 .btn {
-    background: #CDA34F;
+    background: #C99E10;
     padding: 8px 0;
     margin: 0;
     width: 80%;
