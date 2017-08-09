@@ -132,15 +132,15 @@ footer .container{
     color: #2980b9;
 }
 
-.nav span{
+nav span{
     margin-right: 16px;
 }
 
-.nav span:last-child{
+nav span:last-child{
     margin: 0;
 }
 
-.nav i{
+nav i{
     margin-left: 5px;
 }
 
@@ -165,7 +165,7 @@ footer .container{
         display: none;
     }
     
-    .nav {
+    nav {
         display: none;
     }
     
