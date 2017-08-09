@@ -165,7 +165,7 @@ nav i{
         display: none;
     }
     
-    nav {
+    header nav {
         display: none;
     }
     
@@ -546,6 +546,7 @@ footer i{
     footer .container{
         flex-direction: column;
         width: 100%;
+        height: auto;
         margin: 0 auto;
     } 
     
@@ -556,4 +557,5 @@ footer i{
     footer span{
         display: none;
     }
+    
 }
