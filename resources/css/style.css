@@ -345,8 +345,8 @@ article:last-child{
     .articles aside{
         border: 0px;
         width: 100%;
-        margin: 0 16px;
-        padding: 0;
+        margin: 0 auto;
+        padding: 0 16px;
     }
     
     .articles article{
@@ -370,7 +370,7 @@ article:last-child{
     
     article .text{
         width: 100%;
-        padding: 0 32px;
+        padding-left: 32px;
         margin-bottom: 64px;
     }
     
