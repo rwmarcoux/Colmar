@@ -472,9 +472,17 @@ nav i{
      padding: 32px 0;
 }
 
+.thesis .container{
+    align-items: flex-start;
+}
+
 .thesis .side,
 .thesis .story{
     border: none;
+}
+
+.thesis .side{
+    padding-top: 32px;
 }
 
 .thesis .main h3{
