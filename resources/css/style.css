@@ -95,18 +95,18 @@ footer {
 /* Header Nav */
 /*********************/
 
-header{
+.banner{
     display: flex;
     height: 64px;
     width: 100%;
     border-bottom: 1px solid #1D2731;
 }
 
-header .container{
+.banner .container{
     width: 100%;
 }
 
-header .container,
+.banner .container,
 footer .container{
     justify-content: space-between;
     align-items: center;
@@ -295,7 +295,7 @@ nav i{
 
 /* Side */
 
-.side {
+aside {
     width: 40%;
     border-left: 1px solid #1D2731;
     margin-left: 24px;
@@ -335,7 +335,7 @@ nav i{
         display: none;
     }
     
-    .articles .side{
+    .articles aside{
         border: 0px;
         width: 100%;
         margin: 0 16px;
@@ -476,12 +476,12 @@ nav i{
     align-items: flex-start;
 }
 
-.thesis .side,
+.thesis aside,
 .thesis .story{
     border: none;
 }
 
-.thesis .side{
+.thesis aside{
     padding-top: 32px;
 }
 
@@ -495,7 +495,7 @@ nav i{
 
 @media (max-width: 801px){
     
-    .thesis .side{
+    .thesis aside{
         display: none;
     }
     .thesis .main{

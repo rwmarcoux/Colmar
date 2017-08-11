@@ -11,7 +11,7 @@
     <body>
     
     <!-- Header/Nav -->
-        <header role="banner">
+        <header class="banner" role="banner">
             <div class="container" role="presentation">
                 <div class="logo" role="presentation">
                     <img src="./resources/img/ic-logo.svg" alt="Colmar Academy Logo">
@@ -35,165 +35,198 @@
         
     <!-- Jumbotron -->
        <main>
-        <div class="jumbotron" role="section">
+        <section class="jumbotron">
             <div class="container" role="presentation">
                 <img src="./resources/img/banner.jpg" alt="Students at a picnic table">
                 <div class="content" role="presentation">
-                    <h1 role="heading">Learn something new everyday</h1>
+                    <header>
+                        <h1>Learn something new everyday</h1>
+                    </header>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="btn" role="button"><a href="#" role="link">Start here</a></div>
                 </div>
             </div>
-        </div>
+        </section>
         
     <!-- Articles -->
-        <div class="articles" role="section">
+        <section class="articles">
             <div class="container" role="presentation">
-               <div class="main" role="article">
+               <article class="main">
                    <img src="./resources/img/information-main.jpg" alt="Student holding a book">
                    <div class="text" role="presentation">
-                       <h2>It doesn't hurt to keep practicing</h2>
+                       <header>
+                           <h2>It doesn't hurt to keep practicing</h2>
+                       </header>
                        <blockquote>
                            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                        </blockquote>
                        <h5 aria-label="Source of above quote">Emanuel, Sr Strategist at Hiring.com</h5>
                    </div>
-               </div>
+               </article>
                
-               <div class="side" role="row">
-                   <div class="story first" role="article">
+               <aside>
+                   <article class="story first">
                        <img src="./resources/img/information-orientation.jpg" alt="A group of students on a walkway" class="desktop">
                        <img src="./resources/img/information-orientation-mobile.jpg" alt="A group of students on a walkway" class="mobile">
                        <div class="text" role="presentation">
-                           <h3>Orientation date</h3>
+                           <header>
+                               <h3>Orientation date</h3>
+                           </header>
                            <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
                            <a href="#" class="highlight" role="link">Read more</a>
                        </div>
-                   </div>
-                   <div class="story" role="article">
+                   </article>
+                   <article class="story">
                        <img src="./resources/img/information-campus.jpg" alt="Students studying with a large map of South America in the room" class="desktop">
                        <img src="./resources/img/information-campus-mobile.jpg" alt="Students studying with a large map of South America in the room" class="mobile">
                        <div class="text" role="presentation">
-                           <h3>Our Campus</h3>
+                           <header>
+                               <h3>Our Campus</h3>
+                           </header>
                            <p>Find which campus is close by you</p>
                            <a href="#" class="highlight" role="link">Read more</a>
                        </div>
-                   </div>
-                   <div class="story" role="article">
+                   </article>
+                   <article class="story">
                        <img src="./resources/img/information-guest-lecture.jpg" alt="Guest Lecturer - Oliver Sack" class="desktop">
                        <img src="./resources/img/information-guest-lecture-mobile.jpg" alt="Guest Lecturer - Oliver Sack" class="mobile">
                        <div class="text" role="presentation">
-                           <h3>Our guest lecture</h3>
+                           <header>
+                               <h3>Our guest lecture</h3>
+                           </header>
                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                            <a href="#" class="highlight" role="link">Read more</a>
                        </div>
-                   </div>
-               </div>
+                   </article>
+               </aside>
             </div>
-        </div>
+        </section>
         
     <!-- Learning -->
     
-    <div class="learning" role="section">
-        <h2 role="heading">Start learning</h2>
+    <section class="learning">
+        <header>
+            <h2>Start learning</h2>
+        </header>
         <div class="container" role="presentation">
            
         <!-- Courses -->
-            <div class="card" role="">
+            <section class="card">
                 <img src="./resources/img/course-software.jpg" alt="A workdesk with two computer monitors" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Software engineering</a></h3>
+                    <header>
+                        <h3><a href="#" role="link">Software engineering</a></h3>
+                    </header>
                     <p>COURSES</p>
                     <p>Web Development, Mobile Development, iOT, APIs</p>
                 </div>
-            </div>
+            </section>
             
-            <div class="card" role="presentation">
+            <section class="card">
                 <img src="./resources/img/course-computer-art.jpg" alt="Close up of a person holding a smarphone in one hand" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Computer art</a></h3>
+                    <header>
+                        <h3><a href="#" role="link">Computer art</a></h3>
+                    </header>
                     <p>COURSES</p>
                     <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
                 </div>
-            </div>
+            </section>
             
-            <div class="card" role="presentation">
+            <section class="card">
                 <img src="./resources/img/course-design.jpg" alt="Someone taking a picture with an old analog camera" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Design</a></h3>
+                    <header>
+                        <h3><a href="#" role="link">Design</a></h3>
+                    </header>
                     <p>COURSES</p>
                     <p>User Experience Design, User Research, Visual Design</p>
                 </div>
-            </div>
+            </section>
             
-            <div class="card" role="presentation">
+            <section class="card">
                 <img src="./resources/img/course-data.jpg" alt="A laptop with graphs on the screen" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Data</a></h3>
+                    <header>
+                        <h3><a href="#" role="link">Data</a></h3>
+                    </header>
                     <p>COURSES</p>
                     <p>Data Science, Big Data, SQL, Data Visualization</p>
                 </div>
-            </div>
+            </section>
             
-            <div class="card" role="presentation">
+            <section class="card">
                 <img src="./resources/img/course-business.jpg" alt="Close up picture of an ornate wooden chess board" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Business</a></h3>
+                   <header>
+                       <h3><a href="#" role="link">Business</a></h3>   
+                   </header>
                     <p>COURSES</p>
                     <p>Product Development, Business Development, Startup</p>
                 </div>
-            </div>
+            </section>
             
-            <div class="card" role="presentation">
+            <section class="card">
                 <img src="./resources/img/course-marketing.jpg" alt="Close up image of someone looking at their Apple Watch" role="img">
                 <div class="card-text" role="presentation">
-                    <h3><a href="#" role="link">Marketing</a></h3>
+                    <header>
+                        <h3><a href="#" role="link">Marketing</a></h3>
+                    </header>
                     <p>COURSES</p>
                     <p>Analytics, Content Marketing, Mobile Marketing</p>
                 </div>
-            </div>
+            </section>
         </div>
         
-    </div>
+    </section>
     
     <!-- Thesis -->
     
-        <div class="thesis" role="section">
-            <h2 role="heading">Thesis Exhibits</h2>
+        <section class="thesis">
+            <header>
+                <h2>Thesis Exhibits</h2>
+            </header>
             <div class="container" role="presentation">
                 
-                <div class="main" role="article">
+                <article class="main">
                     <video controls muted src="./resources/video/thesis.mp4"></video>
                     <div class="text" role="presentation">
-                        <h3>Reimagine urban</h3>
+                        <header>
+                            <h3>Reimagine urban</h3>
+                        </header>
                         <blockquote>
                             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                         </blockquote>
                     </div>
-                </div>
+                </article>
                 
-                <div class="side">
+                <aside>
                    
-                    <div class="story" role="article">
+                    <article class="story">
                         <img src="./resources/img/thesis-fisma.jpg" alt="Top down view of someone working on a design project smartphone out and paper strewn about" role="img">
                         <div class="text" role="presentation">
-                            <h3>Fisma: Design and Protype</h3>
+                            <header>
+                                <h3>Fisma: Design and Protype</h3>
+                            </header>
                             <p>Designer showcase of new protype product</p>
                         </div>
-                    </div>
+                    </article>
                     
-                    <div class="story" role="article">
+                    <article class="story">
                         <img src="./resources/img/thesis-now-and-then.jpg" alt="A picture of the Empire State building and surrounding skyline" role="img">
                         <div class="text" role="presentation">
-                            <h3>Now and then</h3>
+                            <header>
+                                <h3>Now and then</h3>
+                            </header>
                             <p>Research study about New York</p>
                         </div>
-                    </div>
+                    </article>
                     
-                </div>
+                </aside>
             </div>
-        </div>
+        </section>
     </main>
+    
     <!-- Footer -->
        
         <footer>
