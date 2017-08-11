@@ -13,7 +13,7 @@ body {
 }
 
 .container,
-.story{
+article{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ h5{
     border-top: none;
 }
 
-.story,
+article,
 footer {
     border-top: 1px solid #1D2731;
 }
@@ -186,10 +186,10 @@ nav i{
 
 .jumbotron,
 .learning,
-.articles .story:last-child,
-.thesis .story:first-child{
+.articles article:last-child,
+.thesis aside article:first-child{
     background-color: #0B3C5D;
-    color: #fff;
+    color: #fff
 }
 
 .jumbotron .container img{
@@ -273,7 +273,10 @@ nav i{
 /* Main */
 
 .main {
+    display: flex;
+    flex-direction: column;
     width: 60%;
+    border: 0px;
 }
 
 .main img,
@@ -281,6 +284,10 @@ nav i{
     width: 100%;
     height: auto;
     margin: 32px 0;
+}
+
+.main .text{
+    width: 100%;
 }
 
 .main .text h2,
@@ -306,7 +313,7 @@ aside {
     border: 0px;
 }
 
-.story img{
+article img{
     width: 35%;
     height: auto;
     display: inline-block;
@@ -317,16 +324,16 @@ aside {
         display: none !important;
     }
 
-.story .text {
+article .text {
     width: 65%;
 }
 
-.story .text h3,
-.story .text p {
+article .text h3,
+article .text p {
     margin-bottom: 8px;
 }
 
-.story:last-child{
+article:last-child{
     margin-bottom: 32px;
 }
 
@@ -342,32 +349,32 @@ aside {
         padding: 0;
     }
     
-    .articles .story{
+    .articles article{
         border: 0px;
     }
     
-    .articles .story:last-child{
+    .articles article:last-child{
         background: #fff;
         color: #1D2731;
     }
     
-    .story{
+    article{
         flex-direction: column;
     }
     
-    .story img{
+    article img{
         width: 100%;
         height: auto;
         padding: 16px;
     }
     
-    .story .text{
+    article .text{
         width: 100%;
         padding: 0 32px;
         margin-bottom: 64px;
     }
     
-    .story .text:last-child{
+    article .text:last-child{
         margin-bottom: 32px;
     }
     
@@ -477,7 +484,7 @@ aside {
 }
 
 .thesis aside,
-.thesis .story{
+.thesis article{
     border: none;
 }
 
@@ -489,7 +496,7 @@ aside {
     margin-bottom: 8px;
 }
 
-.thesis .story:last-child{
+.thesis article:last-child{
     background: #fff;
 }
 
