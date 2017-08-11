@@ -23,7 +23,7 @@ article{
     color: #C99E10;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     .container{
         padding: 0;
         margin: 0 auto;
@@ -65,7 +65,7 @@ h5{
     font-size: .9rem;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     h1{
         font-size: 2.5rem;
     }
@@ -150,7 +150,7 @@ nav i{
     display: none;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     
     .banner{
         position: fixed;
@@ -228,7 +228,7 @@ nav i{
     background: #328CC1;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     .jumbotron{
         padding-top: 64px;
     }
@@ -337,7 +337,7 @@ article:last-child{
     margin-bottom: 32px;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     .articles .main{
         display: none;
     }
@@ -434,7 +434,7 @@ article:last-child{
     padding: 8px 0;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     
     .learning h2,
     .thesis h2{
@@ -500,7 +500,7 @@ article:last-child{
     background: #fff;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     
     .thesis aside{
         display: none;
@@ -559,7 +559,7 @@ footer i{
     color: #dd4b39;
 }
 
-@media only screen and (max-width: 801px){
+@media only screen and (max-width: 767px){
     footer .container{
         flex-direction: column;
         width: 100%;
