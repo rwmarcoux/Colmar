@@ -493,7 +493,7 @@ article:last-child{
     padding: 8px 0;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 480px){
     
     .learning h2,
     .thesis h2{
@@ -564,7 +564,7 @@ article:last-child{
     background: #fff;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 480px){
     
     .thesis aside{
         display: none;
@@ -623,7 +623,7 @@ footer i{
     color: #dd4b39;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 480px){
     footer .container{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
